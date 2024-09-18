@@ -12,7 +12,13 @@
   
   <form action="submit" method="post" autocomplete="on">
     <div class="form-group">
-      <label>Phone #: <input type="phone" name= "phone_number" placeholder="Enter your phone number"></label>
+      <label>Phone #: <input type="tel" name= "phone_number" required placeholder="Enter your phone number"></label>
+    </div>
+     <div class="form-group">
+      <label>Email: <input type="email" name= "email" required placeholder="Enter your email"></label>
+    </div>
+     <div class="form-group">
+      <label>DOB: <input type="date" name= "dob" required placeholder="MM/DD/YYYY"></label>
     </div>
   </form>  
 </body>
