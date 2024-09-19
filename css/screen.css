@@ -33,8 +33,7 @@ label {
   font-weight: bold;
   display: block;
   margin-bottom: 10px;
-  text-align: center; 
-  
+  text-align: center;   
 }
 
 input {
@@ -48,7 +47,7 @@ input {
 button {
   width: 100%;
   padding: 10px;
-  background-color: #48b578;
+  background-color: #d42949;
   color: black;
   border-radius: 30px;
   border: 2px solid black;
@@ -56,10 +55,13 @@ button {
   font-weight: bold;
   display: block;
   margin: 20px auto 0 auto; 
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 button:hover {
-  background-color: #369f77;
+  background-color: #c91241;
+  box-shadow: 0 0 15px rgb(181 72 99 / 70%);
+  color: white;
 }
 
 @media (min-width: 768px) {
