@@ -3,9 +3,18 @@ body {
   background-color: #d3d3d3;
   padding: 20px;
 }
-
 h1 {
   text-align: center;
   text-transform: uppercase;
   color: black;
+}
+form {
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 7px;
+  box-shadow: 0x 0x 9px;
+}
+.form-group{
+  margin-bottom: 10px;
+  display: block;
 }
